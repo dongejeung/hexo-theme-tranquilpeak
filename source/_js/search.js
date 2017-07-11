@@ -83,11 +83,11 @@ var searchFunc = function (path, search_id, content_id) {
                 });
                 str += "</ul>";
                 // attaching a summary of searching result
-                // if (numOfPostFound > 0) {
-                //     summary = numOfPostFound + " 개의 포스팅을 찾았습니다..^^";
-                // } else {
-                summary = "해당 검색어가 존재하지 않습니다.";
-                // }
+                if (numOfPostFound > 0) {
+                    summary = numOfPostFound + " 개의 포스팅을 찾았습니다.";
+                } else {
+                    summary = "해당 검색어가 존재하지 않습니다.";
+                }
                 var summary = "<p class=\"text-medium text-color-light archieve-result search-result-summary\">" + summary + "</ul>";
                 $resultContent.innerHTML = summary + str;
             });
