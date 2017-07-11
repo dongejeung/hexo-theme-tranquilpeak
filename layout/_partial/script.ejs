@@ -1,9 +1,14 @@
 <!--SCRIPTS-->
-<%- js('assets/js/jquery.js') %>
-<%- js('assets/js/jquery.fancybox.js') %>
-<%- js('assets/js/jquery.fancybox-thumbs.js') %>
-<%- js('assets/js/tranquilpeak.js') %>
+<%- js('assets/js/script-rtfywlckowezvdz8h0uld1j0gny4dzdsbnjdyf7d8o0kdewitvdr8edp3qkd.min.js') %>
 <!--SCRIPTS END-->
+<script type="text/javascript">      
+     var search_path = "<%= config.search.path %>";
+     if (search_path.length == 0) {
+     	search_path = "search.xml";
+     }
+     var path = "<%= config.root %>" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
 <% if (post.comments) { %>
     <% if (theme.disqus_shortname) { %>
         <script>

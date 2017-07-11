@@ -38,9 +38,9 @@ global:
     search_tag: "Search tag"
     search_date: "Search date (YYYY/MM/DD)"
     posts_found:
-        zero: "no post found"
-        one: "1 post found"
-        other: "{n} posts found"
+        zero: "해당 검색어가 존재하지 않습니다."
+        one: "1 개의 포스팅을 찾았습니다."
+        other: "{n} 개의 포스팅을 찾았습니다."
     categories_found:
         zero: "no category found"
         one: "1 cartegory found"
@@ -69,6 +69,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: ""
+    bio: "어짜피 너넨 다 날 떠날거잖아!!!"
     # Your job
-    job: ""
+    job: "job searching"
