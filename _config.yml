@@ -53,6 +53,9 @@ sidebar:
             title: global.categories
             url: /all-categories
             icon: bookmark
+        angular:
+            title: Angular
+            url: /all-categories/#posts-list-Angular
         os:
             title: OS
             url: /all-categories/#posts-list-OS
@@ -185,11 +188,11 @@ tag_pagination: true
 # You can't use Disqus and Duoshuo together
 # then fill the right shortname
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: kindrobot-disqus-com
 # Your Duoshuo shortname
 duoshuo_shortname:
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-102438751-1
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
 baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog

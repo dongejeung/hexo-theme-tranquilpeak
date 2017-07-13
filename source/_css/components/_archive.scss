@@ -15,21 +15,20 @@
 
         .archive-post {
             .archive-post-title {
-                margin-left: 10px;
+                margin-left: 5px;
                 color:       $font-color-base;
+                font-weight: bold;
 
+                .archive-post-number {
+                    color:   map-get($colors, link);
+                }
+                
                 &:hover {
                     text-decoration: underline;
                 }
             }
             .archive-post-date {
                 color: map-get($colors, light);
-            }
-            // Change styl of the list by adding font-awesome icon
-            &::before {
-                font-family: 'FontAwesome';
-                content:     '\f0da';
-                font-size:   map-get($font-size, small);
             }
         }
     }

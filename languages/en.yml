@@ -1,5 +1,5 @@
 # date format displayed everywhere in the blog
-date_format: "MMM DD, YYYY"
+date_format: "YYYY.MM.DD"
 
 global:
     home: "Home"
@@ -69,6 +69,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: "어짜피 너넨 다 날 떠날거잖아!!!"
+    bio: "어짜피 너넨 날 떠날거잖아!!!"
     # Your job
     job: "job searching"
