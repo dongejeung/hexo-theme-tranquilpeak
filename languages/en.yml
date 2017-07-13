@@ -34,7 +34,7 @@ global:
     share_on_renren: "Share on Renren"
     share_on_vk: "Share on VK"
     share_on_odnoklassniki: "Share on Odnoklassniki"
-    search_category: "Search category"
+    search_category: "카테고리 입력"
     search_tag: "Search tag"
     search_date: "Search date (YYYY/MM/DD)"
     posts_found:
@@ -42,9 +42,9 @@ global:
         one: "1 개의 포스팅을 찾았습니다."
         other: "{n} 개의 포스팅을 찾았습니다."
     categories_found:
-        zero: "no category found"
-        one: "1 cartegory found"
-        other: "{n} categories found"
+        zero: "해당 카테고리가 존재하지 않습니다."
+        one: "1 개의 카테고리를 찾았습니다."
+        other: "{n} 개의 카테고리를 찾았습니다."
     tags_found:
         zero: "no tag found"
         one: "1 tag found"
