@@ -53,15 +53,6 @@ sidebar:
             title: global.categories
             url: /all-categories
             icon: bookmark
-        angular:
-            title: Angular
-            url: /all-categories/#posts-list-Angular
-        os:
-            title: OS
-            url: /all-categories/#posts-list-OS
-        spring:
-            title: Spring
-            url: /all-categories/#posts-list-Spring
     author_links:
         about:
             title: global.about
